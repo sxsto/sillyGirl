@@ -15,7 +15,7 @@ import (
 
 type Reply struct {
 	Rules   []string
-	Type    string //text url
+	Type    string
 	Content string
 	Request struct {
 		Url          string
