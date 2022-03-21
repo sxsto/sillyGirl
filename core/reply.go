@@ -14,7 +14,7 @@ import (
 )
 
 type Reply struct {
-	Rules   []string
+	Rules   []string //
 	Type    string
 	Content string
 	Request struct {
